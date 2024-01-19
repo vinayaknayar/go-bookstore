@@ -15,9 +15,7 @@
 # vendor/
 
 # Go modules cache and global temp files
-go.sum
-go.mod
-/.tmp/
+tmp/
 
 # Output directory
 /output/
@@ -43,5 +41,4 @@ go.mod
 # Environment configuration file
 /.env
 
-./configs/.env
-./tmp
+configs/.env
