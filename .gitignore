@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go modules cache and global temp files
+go.sum
+go.mod
+/.tmp/
+
+# Output directory
+/output/
+
+# IntelliJ IDEA
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Compiled Go binaries
+/bin/
+
+# Local binary for packages and commands
+/pkg/
+
+# The `dist` directory is where Go will put compiled executables
+/dist/
+
+# Scratch space for testing and building
+/.tmp/
+
+# Environment configuration file
+/.env
+
+./configs/.env
+./tmp
