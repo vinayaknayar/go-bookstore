@@ -29,9 +29,6 @@ tmp/
 # Compiled Go binaries
 /bin/
 
-# Local binary for packages and commands
-/pkg/
-
 # The `dist` directory is where Go will put compiled executables
 /dist/
 
