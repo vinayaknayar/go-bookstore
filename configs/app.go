@@ -16,7 +16,7 @@ var (
 // connect to database
 func Connect() (*gorm.DB, error) {
 	//Load  environment variables
-	err := godotenv.Load(".env")
+	err := godotenv.Load("configs/.env")
 	if err != nil {
 		return nil, err
 	}
