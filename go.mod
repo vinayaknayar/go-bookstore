@@ -2,7 +2,12 @@ module github.com/vinayaknayar/go-bookstore
 
 go 1.21.4
 
-require gofr.dev v1.0.3
+require (
+	github.com/joho/godotenv v1.5.1
+	gofr.dev v1.0.3
+	gorm.io/driver/mysql v1.4.5
+	gorm.io/gorm v1.25.5
+)
 
 require (
 	cloud.google.com/go v0.110.10 // indirect
@@ -80,7 +85,6 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/jmoiron/sqlx v1.3.5 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.16.6 // indirect
@@ -137,9 +141,7 @@ require (
 	google.golang.org/grpc v1.59.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gorm.io/driver/mysql v1.4.5 // indirect
 	gorm.io/driver/postgres v1.4.8 // indirect
 	gorm.io/driver/sqlite v1.4.4 // indirect
 	gorm.io/driver/sqlserver v1.4.1 // indirect
-	gorm.io/gorm v1.25.5 // indirect
 )
